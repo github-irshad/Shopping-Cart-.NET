@@ -12,6 +12,6 @@ namespace ShoppingCart.DataAccess.Models
         public int Price { get; set; }
         public string Description { get; set; }
         public string ProductImage { get; set; }
-        public ICollection<ProductCategory> Category { get; set; }
+        public ICollection<ProductCategory> Categories { get; set; }
     }
 }
