@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ShoppingCart.DataAccess;
+using ShoppingCart.DataAccess.Models;
 
 namespace ShoppingCart.Service.Infrastructure
 {
-    public interface ICategory
+  public interface ICategory
     {
         List<Category> GetAllCategories();
         Category GetCategoryById(int Id);
